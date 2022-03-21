@@ -1,5 +1,4 @@
 class InputValidator{
-    // permet de verifier un input pseudo 
     static checkPseudo = function(pseudo, minSize=1 , maxSize=55){
 
         return new Promise((resolve,reject)=>{
@@ -50,6 +49,19 @@ class InputValidator{
                 }
             }else{
                 reject("Votre adresse mail n'est pas valide !")
+            }
+        })
+    }
+
+    static checkPassword = function(password, minSize=1 , maxSize=55){
+        return new Promise((resolve, reject)=>{
+            let passwordValue = password.value
+
+            if(passwordValue.length >= minSize && passwordValue.length <= maxSize){
+                let isNotSpecialChar = this.isSpecialChar(passwordValue)
+                isNotSpecialChar ? resolve('mot de passe valide') : reject('Votre mot de passe doitau minimum avoir un caractère spécial !')
+            }else{
+                reject(`Votre mot de passe doit faire minimum ${minSize} caractère et maximum ${maxSize}`)
             }
         })
     }
