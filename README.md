@@ -32,9 +32,9 @@ checkPseudo accepte **`3 paramètres`**:
 
  • L'_`élément html`_ qui correspond au pseudo **(Obligatoire)**
 
- • Le _`nombre de caractère minium`_ que peut avoir la valeur du pseudo _(optionnel)_
+ • Le _`nombre de caractère minium`_ que peut avoir la valeur du pseudo _(optionnel | =1 par défaut)_
 
- • Le _`nombre de caractère maximum`_ que peut avoir la valeur du pseudo _(optionnel)_
+ • Le _`nombre de caractère maximum`_ que peut avoir la valeur du pseudo _(optionnel | =55 par défaut)_
  ### Exemple
  ```javascript
     
@@ -61,9 +61,9 @@ checkEmail accepte **`3 paramètres`**:
 
  • L'_`élément html`_ qui correspond a l'email **(Obligatoire)**
 
- • Le _`nombre de caractère minium`_ que peut avoir la valeur de l'email _(optionnel)_
+ • Le _`nombre de caractère minium`_ que peut avoir la valeur de l'email _(optionnel | =1 par défaut)_
 
- • Le _`nombre de caractère maximum`_ que peut avoir la valeur de l'email _(optionnel)_
+ • Le _`nombre de caractère maximum`_ que peut avoir la valeur de l'email _(optionnel | =55 par défaut)_
  ### Exemple
  ```javascript
     
@@ -90,9 +90,9 @@ checkPassword accepte **`3 paramètres`**:
 
  • L'_`élément html`_ qui correspond au password **(Obligatoire)**
 
- • Le _`nombre de caractère minium`_ que peut avoir la valeur du password _(optionnel)_
+ • Le _`nombre de caractère minium`_ que peut avoir la valeur du password _(optionnel | =1 par défaut)_
 
- • Le _`nombre de caractère maximum`_ que peut avoir la valeur du password _(optionnel)_
+ • Le _`nombre de caractère maximum`_ que peut avoir la valeur du password _(optionnel | =55 par défaut)_
  ### Exemple
  ```javascript
     
