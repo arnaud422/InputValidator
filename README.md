@@ -1,2 +1,2 @@
 # InputValidator
-InputValidator est un petit Framework JavaScript qui permet de faire des validations coter client sur les balises input  (pseudo,mail,password) 
+[InputValidator](https://github.com/arnaud422/InputValidator/) est un petit Framework léger qui permet de ficiliter la validation de formulaire de connexion. 
