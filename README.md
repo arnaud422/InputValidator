@@ -24,7 +24,7 @@ Après avoir téléchargé le fichier sur votre machine ajoutez-le dans un fichi
     <script src="./utils/InputValidator.js"></script>
     
 # Documentation
-Voici l'utilisation des `trois méthodes principale` qui permetent de vérifier un [pseudo](#checkpseudoargs), une adresse mail et un un mot de passe.
+Voici l'utilisation des `trois méthodes principale` qui permetent de vérifier un [pseudo](#checkpseudoargs), une [adresse mail](#checkemailargs) et un un [mot de passe](#checkPasswordargs).
 
 ## checkPseudo(_args*_)
 #### `InputValidator.checkPseudo()` : _permet de vérifier la validité du pseudo_ 
