@@ -10,7 +10,9 @@ Vous pouvez utiliser cet outil avec un **[`CDN`](https://gcorelabs.com/cdn/what-
 Le principal avantage du `CDN` est qu'il vous donnera toujours `la dernère version` du projet. Ce qui veut dire que le risque de bogue est moindre. /!\ Attention si pour une raison inconnue le server ne repond plus votre projet ne sera évidement plus en mesure d'utiliser l'outil.
 
 #### Ajouter la balise ci-dessous dans a la fin de votre fichier `index.html` principal.
-    server pas encore disponible
+    ```JavaScript
+    <script src="https://arnaud-derison.be/inputvalidator/inputvalidator.js"></script>
+    ````
 
 ### Téléchargement:
 Si vous `téléchargez` le projet vous ne risqué pas de ne plus avoir accès a l'outil `par contre` vous devrez vous tenir au courant des dernières `MAJ` pour éviter les bogue.
